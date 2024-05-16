@@ -1,5 +1,5 @@
 language = "c"
-run = "gcc -o laba3_1 /home/runner/tpmp_zadanie1_13gr_Napreenko/src/main.c"
+run = "gcc -o laba3_1 /home/runner/tpmp_zadanie1_13gr_Napreenko/src/main.c /home/runner/tpmp_zadanie1_13gr_Napreenko/src/main2.c /home/runner/tpmp_zadanie1_13gr_Napreenko/src/interface.h"
 entrypoint = "main.c"
 hidden = ["main", "main-debug", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
 compile = ["make", "-s"]
